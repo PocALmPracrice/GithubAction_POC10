@@ -1,5 +1,5 @@
 on: push
-run-name: self-hosted
+run-name: ubuntu-latest
 jobs:
   sonar:
     runs-on: self-hosted
