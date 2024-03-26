@@ -2,7 +2,7 @@ on: push
 run-name: ubuntu-latest
 jobs:
   sonar:
-    runs-on: self-hosted
+    runs-on:ubuntu-latest
     steps:
       - name: SonarQube Scan
         run: mvn sonar:sonar
